@@ -7,6 +7,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ProductListComponentModule} from "./components/product-list/product-list.component-module";
 import {ProductsServiceModule} from "./services/products.service-module";
+import {ProductCategoryComponentModule} from "./components/product-category/product-category.component-module";
+import {ProductCategoryServiceModule} from "./services/product-category.service-module";
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {ProductsServiceModule} from "./services/products.service-module";
     HttpClientModule,
     MatCardModule,
     ProductListComponentModule,
-    ProductsServiceModule
+    ProductsServiceModule,
+    ProductCategoryComponentModule,
+    ProductCategoryServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

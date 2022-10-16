@@ -1,0 +1,4 @@
+<mat-card>
+  <mat-card-title>Product List</mat-card-title>
+  <mat-card-content *ngFor="let product of products$ | async">{{product.title}} {{product.price}}$</mat-card-content>
+</mat-card>

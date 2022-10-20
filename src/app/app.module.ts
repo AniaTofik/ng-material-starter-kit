@@ -14,6 +14,7 @@ import {CryptoChipsServiceModule} from "./services/crypto-chips.service-module";
 import {HolidayComponentModule} from "./components/holiday/holiday.component-module";
 import {PublicHolidaysServiceModule} from "./services/public-holidays.service-module";
 import {CategoriesListComponentModule} from "./components/categories-list/categories-list.component-module";
+import {CategoriesMenuComponentModule} from "./components/categories-menu/categories-menu.component-module";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {CategoriesListComponentModule} from "./components/categories-list/catego
     CryptoChipsServiceModule,
     HolidayComponentModule,
     PublicHolidaysServiceModule,
-    CategoriesListComponentModule
+    CategoriesListComponentModule,
+    CategoriesMenuComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
